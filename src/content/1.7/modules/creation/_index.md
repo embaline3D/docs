@@ -432,7 +432,7 @@ Configuration::updateValue('MYMODULE_SETTINGS', serialize(array(true, true, fals
 $configuration_array = unserialize(Configuration::get('MYMODULE_SETTINGS'));
 ```
 
-As you can see, this in a very useful and easy-to-use object, and you
+As you can see, this is a very useful and easy-to-use object, and you
 will certainly use it in many situations. Most native modules use it too
 for their own settings.
 
